@@ -9,3 +9,11 @@ jobs:
 
     strategy:
       fail-fast: true
+      matrix:
+        os: [ubuntu-latest]
+        php: [8.2]
+        dependency-version: [prefer-lowest, prefer-stable]
+
+    name: Formats P${{ matrix.php }} - ${{ matrix.os }} - ${{ matrix.dependency-version }}
+
+    steps:
