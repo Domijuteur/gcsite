@@ -17,3 +17,12 @@ jobs:
     name: Formats P${{ matrix.php }} - ${{ matrix.os }} - ${{ matrix.dependency-version }}
 
     steps:
+
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Cache dependencies
+      uses: actions/cache@v1
+      with:
+        path: ~/.composer/cache/files
+        key: dependencies-php-${{ matrix.php }}-composer-${{ hashFiles('composer.json') }}
