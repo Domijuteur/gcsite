@@ -29,3 +29,10 @@ jobs:
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
       with:
+        php-version: ${{ matrix.php }}
+        extensions: dom, mbstring, zip
+        coverage: none
+
+    - name: Require Laravel Version
+      run: >
+        composer require
