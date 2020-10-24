@@ -23,3 +23,9 @@ jobs:
     - name: Cache dependencies
       uses: actions/cache@v1
       with:
+        path: ~/.composer/cache/files
+        key: dependencies-php-${{ matrix.php }}-L${{ matrix.laravel }}-${{ matrix.dependency-version }}-composer-${{ hashFiles('composer.json') }}
+
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
