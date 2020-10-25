@@ -16,3 +16,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## v0.3.2 (2023-02-28)
 ### Changed
 - Changed underlying `openai/client` package version from 0.3.0 to 0.3.2
+
+## v0.3.1 (2023-01-27)
+### Added
+- Support for Laravel 10 ([#8](https://github.com/openai-php/laravel/pull/8))
