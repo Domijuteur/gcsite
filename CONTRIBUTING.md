@@ -19,3 +19,9 @@ Please review these guidelines before submitting any pull requests.
 * Please remember that we follow [SemVer](http://semver.org/).
 
 ## Setup
+
+Clone your fork, then install the dev dependencies:
+```bash
+composer install
+```
+## Lint
