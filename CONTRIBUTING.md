@@ -25,3 +25,8 @@ Clone your fork, then install the dev dependencies:
 composer install
 ```
 ## Lint
+
+Lint your code:
+```bash
+composer lint
+```
