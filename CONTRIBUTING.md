@@ -34,3 +34,8 @@ composer lint
 
 Run all tests:
 ```bash
+composer test
+```
+
+Check types:
+```bash
