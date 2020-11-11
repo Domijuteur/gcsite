@@ -39,3 +39,7 @@ composer test
 
 Check types:
 ```bash
+composer test:types
+```
+
+Unit tests:
