@@ -44,3 +44,5 @@ composer test:types
 
 Unit tests:
 ```bash
+composer test:unit
+```
