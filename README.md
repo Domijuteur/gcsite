@@ -1,2 +1,2 @@
 <p align="center">
-    <p align=
+    <p align="c
