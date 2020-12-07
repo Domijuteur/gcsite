@@ -1,3 +1,3 @@
 <p align="center">
     <p align="center">
-        <a href="https://github.com/openai-php/laravel/action
+        <a href="https://github.com/openai-php/laravel/actions"><img
