@@ -8,4 +8,4 @@
 </p>
 
 ------
-**OpenAI PHP** for Laravel is a co
+**OpenAI PHP** for Laravel is a commun
