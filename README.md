@@ -8,4 +8,4 @@
 </p>
 
 ------
-**OpenAI PHP** for Laravel is a community-maintained PH
+**OpenAI PHP** for Laravel is a community-maintained PHP API 
