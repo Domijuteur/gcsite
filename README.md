@@ -8,4 +8,4 @@
 </p>
 
 ------
-**OpenAI PHP** for Laravel is a community-maintained PHP API clien
+**OpenAI PHP** for Laravel is a community-maintained PHP API client tha
