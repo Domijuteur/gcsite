@@ -10,4 +10,4 @@
 ------
 **OpenAI PHP** for Laravel is a community-maintained PHP API client that allows you to interact with the [Open AI API](https://beta.openai.com/docs/api-reference/introduction). If you or your business relies on this package, it's important to support the developers who have contributed their time and effort to create and maintain this valuable tool:
 
-- Nuno 
+- Nuno Madur
