@@ -13,4 +13,4 @@
 - Nuno Maduro: **[github.com/sponsors/nunomaduro](https://github.com/sponsors/nunomaduro)**
 - Sandro Gehri: **[github.com/sponsors/gehrisandro](https://github.com/sponsors/gehrisandro)**
 
-> **Note:** This repository contains t
+> **Note:** This repository contains the in
