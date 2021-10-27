@@ -17,4 +17,4 @@
 
 ## Get Started
 
-> **Requir
+> **Requires [PHP 
