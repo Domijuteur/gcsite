@@ -17,4 +17,4 @@
 
 ## Get Started
 
-> **Requires [PHP 8.1+](
+> **Requires [PHP 8.1+](http
