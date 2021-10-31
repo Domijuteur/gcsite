@@ -17,4 +17,4 @@
 
 ## Get Started
 
-> **Requires [PHP 8.1+](https://php.net/release
+> **Requires [PHP 8.1+](https://php.net/releases/)*
