@@ -19,4 +19,4 @@
 
 > **Requires [PHP 8.1+](https://php.net/releases/)**
 
-First, install OpenAI via the [Composer](https://getcomposer.org/) pack
+First, install OpenAI via the [Composer](https://getcomposer.org/) packa
