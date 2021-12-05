@@ -21,4 +21,4 @@
 
 First, install OpenAI via the [Composer](https://getcomposer.org/) package manager:
 
-```
+```bas
