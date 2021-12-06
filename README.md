@@ -22,4 +22,4 @@
 First, install OpenAI via the [Composer](https://getcomposer.org/) package manager:
 
 ```bash
-composer req
+composer require op
