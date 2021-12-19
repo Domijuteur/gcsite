@@ -25,4 +25,4 @@ First, install OpenAI via the [Composer](https://getcomposer.org/) package manag
 composer require openai-php/laravel
 ```
 
-Next,
+Next, publi
