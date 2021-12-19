@@ -24,3 +24,5 @@ First, install OpenAI via the [Composer](https://getcomposer.org/) package manag
 ```bash
 composer require openai-php/laravel
 ```
+
+Next,
