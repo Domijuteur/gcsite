@@ -27,4 +27,5 @@ composer require openai-php/laravel
 
 Next, publish the configuration file:
 
-```b
+```bash
+p
