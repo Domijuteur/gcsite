@@ -28,4 +28,4 @@ composer require openai-php/laravel
 Next, publish the configuration file:
 
 ```bash
-php artisan ven
+php artisan vendor:pu
