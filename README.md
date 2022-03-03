@@ -29,3 +29,4 @@ Next, publish the configuration file:
 
 ```bash
 php artisan vendor:publish --provider="OpenAI\Laravel\ServiceProvider"
+```
