@@ -31,4 +31,4 @@ Next, publish the configuration file:
 php artisan vendor:publish --provider="OpenAI\Laravel\ServiceProvider"
 ```
 
-This will create a `co
+This will create a `conf
