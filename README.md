@@ -34,4 +34,5 @@ php artisan vendor:publish --provider="OpenAI\Laravel\ServiceProvider"
 This will create a `config/openai.php` configuration file in your project, which you can modify to your needs
 using environment variables: 
 
-```en
+```env
+OPEN
