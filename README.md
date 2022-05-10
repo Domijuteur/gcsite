@@ -35,4 +35,4 @@ This will create a `config/openai.php` configuration file in your project, which
 using environment variables: 
 
 ```env
-OPEN
+OPENAI_API
