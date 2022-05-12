@@ -36,3 +36,4 @@ using environment variables:
 
 ```env
 OPENAI_API_KEY=sk-...
+``
