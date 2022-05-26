@@ -38,4 +38,4 @@ using environment variables:
 OPENAI_API_KEY=sk-...
 ```
 
-Finally, you may use the `OpenAI` facade to acc
+Finally, you may use the `OpenAI` facade to acces
