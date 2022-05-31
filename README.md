@@ -41,3 +41,4 @@ OPENAI_API_KEY=sk-...
 Finally, you may use the `OpenAI` facade to access the OpenAI API:
 
 ```php
+us
