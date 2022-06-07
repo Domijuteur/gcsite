@@ -41,4 +41,5 @@ OPENAI_API_KEY=sk-...
 Finally, you may use the `OpenAI` facade to access the OpenAI API:
 
 ```php
-use OpenAI\Laravel\Facades\Open
+use OpenAI\Laravel\Facades\OpenAI;
+
