@@ -44,4 +44,4 @@ Finally, you may use the `OpenAI` facade to access the OpenAI API:
 use OpenAI\Laravel\Facades\OpenAI;
 
 $result = OpenAI::completions()->create([
-    'model' => 'text-dav
+    'model' => 'text-davi
