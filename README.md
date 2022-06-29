@@ -45,4 +45,4 @@ use OpenAI\Laravel\Facades\OpenAI;
 
 $result = OpenAI::completions()->create([
     'model' => 'text-davinci-003',
-    'pro
+    'prompt' => 'P
