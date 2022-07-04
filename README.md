@@ -48,4 +48,4 @@ $result = OpenAI::completions()->create([
     'prompt' => 'PHP is',
 ]);
 
-echo $result['choices'][
+echo $result['choices'][0
