@@ -48,4 +48,4 @@ $result = OpenAI::completions()->create([
     'prompt' => 'PHP is',
 ]);
 
-echo $result['choices'][0]['text']; // an open-source, widel
+echo $result['choices'][0]['text']; // an open-source, widely-used,
