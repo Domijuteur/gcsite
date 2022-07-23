@@ -49,3 +49,4 @@ $result = OpenAI::completions()->create([
 ]);
 
 echo $result['choices'][0]['text']; // an open-source, widely-used, server-side scripting language.
+```
