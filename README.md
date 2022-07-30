@@ -53,4 +53,4 @@ echo $result['choices'][0]['text']; // an open-source, widely-used, server-side 
 
 ## Usage
 
-For usage examples, take a l
+For usage examples, take a lo
