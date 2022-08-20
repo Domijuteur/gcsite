@@ -56,3 +56,5 @@ echo $result['choices'][0]['text']; // an open-source, widely-used, server-side 
 For usage examples, take a look at the [openai-php/client](https://github.com/openai-php/client) repository.
 
 ---
+
+OpenAI
