@@ -57,4 +57,4 @@ For usage examples, take a look at the [openai-php/client](https://github.com/op
 
 ---
 
-OpenAI PHP for L
+OpenAI PHP for Larave
