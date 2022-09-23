@@ -57,4 +57,4 @@ For usage examples, take a look at the [openai-php/client](https://github.com/op
 
 ---
 
-OpenAI PHP for Laravel is an open-sourced software licensed under the **[MIT license](https://op
+OpenAI PHP for Laravel is an open-sourced software licensed under the **[MIT license](https://opensour
