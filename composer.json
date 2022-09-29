@@ -1,0 +1,5 @@
+
+{
+    "name": "openai-php/laravel",
+    "description": "OpenAI PHP for Laravel is a supercharged PHP API client that allows you to interact with the Open AI API",
+    "keywords": ["laravel","php", "openai", "sdk", "codex", "GPT-3", "DALL-E", "api", "client", "natural", "language", "processing"],
