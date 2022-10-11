@@ -23,3 +23,4 @@
         "phpstan/phpstan": "^1.10.3",
         "symfony/var-dumper": "^6.2.7"
     },
+    "autoload": {
