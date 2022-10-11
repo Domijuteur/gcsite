@@ -24,3 +24,5 @@
         "symfony/var-dumper": "^6.2.7"
     },
     "autoload": {
+        "psr-4": {
+            "OpenAI\\Laravel\\": "src/"
