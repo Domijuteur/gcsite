@@ -26,3 +26,8 @@
     "autoload": {
         "psr-4": {
             "OpenAI\\Laravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
