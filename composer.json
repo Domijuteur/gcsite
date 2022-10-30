@@ -54,3 +54,6 @@
         "refactor": "rector --debug",
         "test:lint": "pint --test -v",
         "test:types": "phpstan analyse --ansi",
+        "test:unit": "pest --colors=always",
+        "test": [
+            "@test:lint",
