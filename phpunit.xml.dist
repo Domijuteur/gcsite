@@ -21,3 +21,8 @@
          displayDetailsOnTestsThatTriggerErrors="true"
          displayDetailsOnTestsThatTriggerNotices="true"
          displayDetailsOnTestsThatTriggerWarnings="true"
+>
+    <testsuites>
+        <testsuite name="Default Test Suite">
+            <directory suffix=".php">./tests</directory>
+        </testsuite>
