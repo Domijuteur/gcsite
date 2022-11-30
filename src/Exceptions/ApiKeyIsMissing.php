@@ -9,3 +9,9 @@ use InvalidArgumentException;
 
 /**
  * @internal
+ */
+final class ApiKeyIsMissing extends InvalidArgumentException
+{
+    /**
+     * Create a new exception instance.
+     */
