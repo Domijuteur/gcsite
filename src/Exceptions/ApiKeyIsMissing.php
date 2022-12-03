@@ -21,3 +21,4 @@ final class ApiKeyIsMissing extends InvalidArgumentException
             'The OpenAI API Key is missing. Please publish the [openai.php] configuration file and set the [api_key].'
         );
     }
+}
