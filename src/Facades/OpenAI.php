@@ -18,3 +18,7 @@ use Illuminate\Support\Facades\Facade;
  * @method static \OpenAI\Resources\Images images()
  * @method static \OpenAI\Resources\Models models()
  * @method static \OpenAI\Resources\Moderations moderations()
+ */
+final class OpenAI extends Facade
+{
+    /**
