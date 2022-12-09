@@ -28,3 +28,4 @@ final class OpenAI extends Facade
     {
         return 'openai';
     }
+}
