@@ -20,3 +20,8 @@ final class ServiceProvider extends BaseServiceProvider
      */
     public function register(): void
     {
+        $this->app->singleton(Client::class, static function (): Client {
+            $apiKey = config('openai.api_key');
+            $organization = config('openai.organization');
+
+            if (! is_string($apiKey) || ($organization !== null && ! is_string($organization))) {
