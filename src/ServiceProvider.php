@@ -25,3 +25,7 @@ final class ServiceProvider extends BaseServiceProvider
             $organization = config('openai.organization');
 
             if (! is_string($apiKey) || ($organization !== null && ! is_string($organization))) {
+                throw ApiKeyIsMissing::create();
+            }
+
+            return OpenAI::client($apiKey, $organization);
