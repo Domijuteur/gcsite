@@ -29,3 +29,6 @@ final class ServiceProvider extends BaseServiceProvider
             }
 
             return OpenAI::client($apiKey, $organization);
+        });
+
+        $this->app->alias(Client::class, 'openai');
