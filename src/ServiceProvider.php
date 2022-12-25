@@ -32,3 +32,6 @@ final class ServiceProvider extends BaseServiceProvider
         });
 
         $this->app->alias(Client::class, 'openai');
+    }
+
+    /**
