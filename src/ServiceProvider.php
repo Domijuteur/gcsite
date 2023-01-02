@@ -41,3 +41,5 @@ final class ServiceProvider extends BaseServiceProvider
     {
         $this->publishes([
             __DIR__.'/../config/openai.php' => config_path('openai.php'),
+        ]);
+    }
