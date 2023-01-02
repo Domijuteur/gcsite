@@ -43,3 +43,10 @@ final class ServiceProvider extends BaseServiceProvider
             __DIR__.'/../config/openai.php' => config_path('openai.php'),
         ]);
     }
+
+    /**
+     * Get the services provided by the provider.
+     *
+     * @return array<int, string>
+     */
+    public function provides(): array
