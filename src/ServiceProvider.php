@@ -54,3 +54,5 @@ final class ServiceProvider extends BaseServiceProvider
         return [
             Client::class,
         ];
+    }
+}
