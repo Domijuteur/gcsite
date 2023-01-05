@@ -50,3 +50,7 @@ final class ServiceProvider extends BaseServiceProvider
      * @return array<int, string>
      */
     public function provides(): array
+    {
+        return [
+            Client::class,
+        ];
