@@ -12,3 +12,8 @@ test('facades')
     ]);
 
 test('service providers')
+    ->expect('OpenAI\Laravel\ServiceProvider')
+    ->toOnlyUse([
+        'Illuminate\Support\ServiceProvider',
+        'OpenAI\Laravel',
+        'OpenAI',
