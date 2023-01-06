@@ -7,3 +7,8 @@ test('exceptions')
 
 test('facades')
     ->expect('OpenAI\Laravel\Facades\OpenAI')
+    ->toOnlyUse([
+        'Illuminate\Support\Facades\Facade',
+    ]);
+
+test('service providers')
