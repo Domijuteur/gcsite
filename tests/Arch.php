@@ -17,3 +17,8 @@ test('service providers')
         'Illuminate\Support\ServiceProvider',
         'OpenAI\Laravel',
         'OpenAI',
+
+        // helpers...
+        'config',
+        'config_path',
+    ]);
