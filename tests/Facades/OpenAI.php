@@ -7,3 +7,6 @@ use OpenAI\Laravel\ServiceProvider;
 use OpenAI\Resources\Completions;
 
 it('resolves resources', function () {
+    $app = app();
+
+    $app->bind('config', fn () => new Repository([
