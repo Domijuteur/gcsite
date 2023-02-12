@@ -10,3 +10,9 @@ it('resolves resources', function () {
     $app = app();
 
     $app->bind('config', fn () => new Repository([
+        'openai' => [
+            'api_key' => 'test',
+        ],
+    ]));
+
+    (new ServiceProvider($app))->register();
