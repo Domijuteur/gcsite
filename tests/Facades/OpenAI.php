@@ -22,3 +22,4 @@ it('resolves resources', function () {
     $completions = OpenAI::completions();
 
     expect($completions)->toBeInstanceOf(Completions::class);
+});
