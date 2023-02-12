@@ -16,3 +16,5 @@ it('resolves resources', function () {
     ]));
 
     (new ServiceProvider($app))->register();
+
+    OpenAI::setFacadeApplication($app);
