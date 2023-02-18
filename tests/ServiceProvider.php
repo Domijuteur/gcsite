@@ -19,3 +19,9 @@ it('binds the client on the container', function () {
 
     expect($app->get(Client::class))->toBeInstanceOf(Client::class);
 });
+
+it('binds the client on the container as singleton', function () {
+    $app = app();
+
+    $app->bind('config', fn () => new Repository([
+        'openai' => [
