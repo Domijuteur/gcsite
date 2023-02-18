@@ -13,3 +13,9 @@ it('binds the client on the container', function () {
         'openai' => [
             'api_key' => 'test',
         ],
+    ]));
+
+    (new ServiceProvider($app))->register();
+
+    expect($app->get(Client::class))->toBeInstanceOf(Client::class);
+});
