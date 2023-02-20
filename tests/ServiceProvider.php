@@ -26,3 +26,5 @@ it('binds the client on the container as singleton', function () {
     $app->bind('config', fn () => new Repository([
         'openai' => [
             'api_key' => 'test',
+        ],
+    ]));
