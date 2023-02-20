@@ -28,3 +28,9 @@ it('binds the client on the container as singleton', function () {
             'api_key' => 'test',
         ],
     ]));
+
+    (new ServiceProvider($app))->register();
+
+    $client = $app->get(Client::class);
+
+    expect($app->get(Client::class))->toBe($client);
