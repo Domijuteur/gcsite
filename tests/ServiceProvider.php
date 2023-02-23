@@ -38,3 +38,5 @@ it('binds the client on the container as singleton', function () {
 
 it('requires an api key', function () {
     $app = app();
+
+    $app->bind('config', fn () => new Repository([]));
