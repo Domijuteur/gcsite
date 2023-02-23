@@ -34,3 +34,7 @@ it('binds the client on the container as singleton', function () {
     $client = $app->get(Client::class);
 
     expect($app->get(Client::class))->toBe($client);
+});
+
+it('requires an api key', function () {
+    $app = app();
