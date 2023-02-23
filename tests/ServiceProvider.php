@@ -40,3 +40,7 @@ it('requires an api key', function () {
     $app = app();
 
     $app->bind('config', fn () => new Repository([]));
+
+    (new ServiceProvider($app))->register();
+})->throws(
+    ApiKeyIsMissing::class,
